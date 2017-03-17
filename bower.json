@@ -1,0 +1,17 @@
+{
+  "name": "node-doctor-lookup-api",
+  "description": "doctor lookup app",
+  "main": "gulpfile.js",
+  "authors": [
+    "Jay Freeman"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jaythinkshappiness/node-doctor-lookup-api",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
