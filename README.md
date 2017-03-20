@@ -53,7 +53,10 @@ By Jeremiah Freeman
   - Clone repository " https://github.com/jaythinkshappiness/node-doctor-lookup-api " to your desktop from the Terminal.
   - From the command line run ' npm install '.
   - Then run the command ' bower install '.
-  - 
+  - Make sure your API key is functional and replace "apiKey" on line 7 of 'doctor-search.js'
+  - Run gulp build in Terminal
+  - Run gulp serve in Terminal
+  - Now enter in a medical symptom in to input box and hit enter.
 
 ## Known Bugs
 
