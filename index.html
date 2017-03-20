@@ -3,21 +3,23 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="build/css/vendor.css">
-  <!-- <link rel="stylesheet" href="build/css/styles.css"> -->
   <script src="build/js/vendor.min.js"></script>
   <script type="text/javascript" src="build/js/app.js"></script>
   <title>Doctor LookUp</title>
 </head>
 <body>
   <div class="container">
-    <h2>Feeling ill or a little under the weather?  <br>Is something hurting?  <br>Take action now by searching our database of thousands of doctors in your area!</h2>
+    <h3>Feeling ill or a little under the weather? <br>Is something hurting?  <br><br>Take action now by searching our database <br>of thousands of doctors in your area!</h3>
     <br>
     <div class="inputarea">
       <label for="ailment">How are you feeling?</label>
       <input id="ailment" type="text" name="ailment" placeholder="'toothache', 'headache'"value="">
       <button class="btn btn-success" id="finddoctors" name="button">help</button>
     </div>
-    <div class="showdoctors"></div>
+    <div>
+      <ul class="showdoctors"></ul>
+      <br>
+    </div>
   </div>
 </body>
 </html>
